@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React- A JavaScript library for building user interfaces reactjs.org</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="support">Support Ukraine <span class="size">UA</span> <span class="help"><a href="https://opensource.fb.com/support-ukraine">Help Provide Humanitarian Aid to Ukraine.</a> </span></div>
+    <div class="navigation">
+        <div class="flex1">
+            <div class="flex1a"><img src="icon.png" height="20px" alt=""></div>
+            <div class="flex1b"><a href="https://reactjs.org/">React</a></div>
+        </div>
+        <div class="flex2">
+            <div class="flex2a"><a href="https://reactjs.org/docs/getting-started.html" class="transit">Docs</a></div>
+            <div class="flex2b"><a href="https://reactjs.org/tutorial/tutorial.html"class="transit">Tutorial</a></div>
+            <div class="flex2c"><a href="https://reactjs.org/blog/"class="transit">Blog</a></div>
+            <div class="flex2d"><a href="https://reactjs.org/community/support.html"class="transit">Community</a></div>
+        </div>
+        <div class="flex3"><i class="fa fa-search icon"></i><input type="text" placeholder="Search"></div>
+        <div class="flex4">
+            <div class="flex4a"><a href="https://reactjs.org/versions" class="transit2">v.18.2.0</a></div>
+            <div class="flex4b"><a href="https://reactjs.org/languages" class="transit2"><div class="fa fa-language icon"></div> Languages</a></div>
+            <div class="flex4c"><a href="https://github.com/facebook/react/" class="transit2" target="_blank">GitHub </a><a href="https://github.com/facebook/react/"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a></div>
+        </div>
+    </div>
+    <div class="head">
+        <span>React</span>
+        <p>A JavaScript library for building user interfaces</p>
+        <div class="buttons">
+            <button><a href="https://reactjs.org/docs/getting-started.html">Get Started</a></button>
+            <div class="tutorial"><a href="https://reactjs.org/tutorial/tutorial.html">Take the Tutorial<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg></a></div>
+        </div>
+    </div>
+    <div class="information">
+        <div class="grid1">
+            <h1>Declarative</h1>
+            <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
+            <p>Declarative views make your code more predictable and easier to debug.</p>
+        </div>
+        <div class="grid2">
+            <h1>Component-Based</h1>
+            <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+            <p>Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+        </div>
+        <div class="grid3">
+            <h1>Learn Once, Write Anywhere</h1>
+            <p>We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.</p>
+            <p>React can also render on the server using Node and power mobile apps using <a href="https://reactnative.dev/">React Native</a>.</p>
+        </div>
+    </div>
+    <div class="line"><hr></div>
+    <div class="information2">
+        <div class="grid4">
+            <h1>A Simple Component</h1>
+            <p>React components implement a <span>render()</span> method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by <span>render()</span> via <span>this.props</span>.</p>
+            <p><b>JSX is optional and not required to use React.</b> Try the <a href="https://babeljs.io/repl/#?presets=react&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA">Babel REPL</a> to see the raw JavaScript code produced by the JSX compilation step.</p>
+        </div>
+        <div class="grid5"><img src="taylor.png" height="220px" alt=""></div>
+        <div class="grid6">
+            <h1>A Stateful Component</h1>
+            <p>In addition to taking input data (accessed via <span>this.props</span>), a component can maintain internal state data (accessed via <span>this.state</span>). When a component’s state data changes, the rendered markup will be updated by re-invoking <span>render()</span>.</p>
+        </div>
+        <div class="grid7"><img src="seconds.png" height="360px" alt=""></div>
+        <div class="grid8">
+            <h1>An Application</h1>
+            <p>Using <span>props</span> and <span>state</span>, we can put together a small Todo application. This example uses <span>state</span> to track the current list of items as well as the text that the user has entered. Although event handlers appear to be rendered inline, they will be collected and implemented using event delegation.</p>
+        </div>
+        <div class="grid9"><img src="todo.png"height="360px" alt=""></div>
+        <div class="grid10">
+            <h1>A Component Using External Plugins</h1>
+            <p>React allows you to interface with other libraries and frameworks. This example uses <b>remarkable</b>, an external Markdown library, to convert the <span>&lttextarea&gt</span>’s value in real time.</p>
+        </div>
+        <div class="grid11"><img src="input.png" height="360px" alt=""></div>
+    </div>
+    <div class="buttons2">
+        <button><a href="https://reactjs.org/docs/getting-started.html">Get Started</a></button>
+        <div class="tutorial"><a href="https://reactjs.org/tutorial/tutorial.html">Take the Tutorial<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a></div>
+    </div>
+    <div class="outro">
+        <div class="gd1">
+            <img src="download.png" height="50px" alt="">
+            <p>Copyright © 2022 Meta Platforms, Inc.</p>
+        </div>
+        <div class="gd2">
+            <p><b>DOCS</b></p>
+            <div class="flexbox1">
+                <a href="https://reactjs.org/docs/getting-started.html">Installation</a>
+                <a href="https://reactjs.org/docs/hello-world.html">Main Concepts</a>
+                <a href="https://reactjs.org/docs/accessibility.html">Advanced Guides</a>
+                <a href="https://reactjs.org/docs/react-api.html">API Reference</a>
+                <a href="https://reactjs.org/docs/hooks-intro.html">Hooks</a>
+                <a href="https://reactjs.org/docs/testing.html">Testing</a>
+                <a href="https://reactjs.org/docs/how-to-contribute.html">Contributing</a>
+                <a href="https://reactjs.org/docs/faq-ajax.html">FAQ</a>
+            </div>
+        </div>
+        <div class="gd3">
+            <p><b>CHANNELS</b></p>
+            <div class="flexbox2">
+               <a href="https://github.com/facebook/react/" target="_blank">GitHub <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a>
+              <a href="https://stackoverflow.com/questions/tagged/reactjs" target="_blank">Stack Overflow <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a>
+              <a href="https://reactjs.org/community/support.html#popular-discussion-forums" target="_blank">Discussion Forms <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a>
+              <a href="https://discord.gg/reactiflux" target="_blank">Reactiflux Chat <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a>
+              <a href="https://dev.to/t/react" target="_blank">DEV Community <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a>
+              <a href="https://www.facebook.com/react" target="_blank">Facebook <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a>
+              <a href="https://twitter.com/reactjs" target="_blank">Twitter <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg></a>
+            </div>
+        </div>
+        <div class="gd4">
+            <div class="flexbox3">
+                <p><b>COMMUNITY</b></p>
+                <a href="https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md" target="_blank">Code of Conduct <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                  </svg></a>
+                <a href="https://reactjs.org/community/support.html">Community Resources</a>
+            </div>
+        </div>
+        <div class="gd5">
+            <p><b>MORE</b></p>
+            <div class="flexbox4">
+                <a href="https://reactjs.org/tutorial/tutorial.html">Tutorial</a>
+                <a href="https://reactjs.org/blog">Blog</a>
+                <a href="https://reactjs.org/acknowledgements.html">Acknowledgements</a>
+                  <a href="https://reactnative.dev/" target="_blank">React Native <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                  </svg></a>
+                  <a href="https://opensource.facebook.com/legal/privacy" target="_blank">Privacy <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                  </svg></a>
+                  <a href="https://opensource.facebook.com/legal/privacy" target="_blank">Terms <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                  </svg></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+body{
+    margin:0;
+}
+.support{
+    /* position: fixed;
+    top:0; */
+    width:100%;
+    font-size:1.101em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.03em;
+    padding:0.7em;
+    text-align: center;
+    background-color: #16181D;
+    color:whitesmoke;
+}
+.size{
+    font-size: 0.7em;
+    font-weight: 600;
+}
+.help a{
+    text-decoration: none;
+    color:#61DAFB;
+}
+.navigation a{
+    text-decoration: none;
+}
+.flex3 i{
+    padding:.3em;
+    color:white;
+}
+.navigation{
+    background-color: #20232A;
+    /* position: fixed;
+    top:45px; */
+    width:100%;
+    display: flex;
+    padding:.7em 1em .7em 2em;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-gap: 6em;
+}
+.flex1{
+    display: flex;
+    grid-gap:.5em;
+}
+.flex2,.flex4{
+    display: flex;
+    grid-gap: 2em;
+}
+.transit{
+    font-size: 0.85em;
+    transition: color 300ms;
+}
+.transit:hover{
+    color:#61DAFB;
+}
+.flex3 ::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: 100;
+    color:gray;
+}
+.flex4 a{
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.flex2 a,.flex4 a{
+    color:white;
+}
+.flex1b a{
+    font-weight: 700;
+    color:#61DAFB;
+}
+.transit2:hover{
+    color:#61DAFB;
+}
+.flex3 i{
+    font-size: .8em;
+}
+.flex4b{
+    color:white;
+}
+input[type=text]{
+    color:gray;
+    background-color: #20232A;
+    border-radius: 4px;
+    outline-color: #20232A;
+    padding: 0.5em 0.2em 0.5em 0.5em;
+}
+.flex4c svg,.flexbox2 svg,.flexbox3 svg,.flexbox4 svg{
+    color:gray;
+}
+.flex4{
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.head{
+    text-align: center;
+    padding: 50px 400px 60px 400px;
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-color: #282C34;
+    background-position: right;
+    background-size: contain;
+}
+.head p{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+}
+.head span{
+    color:#61DAFB;
+    font-weight: 600;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    grid-gap: 1.3em;
+    background-color: #282C34;
+}
+.buttons button,.buttons2 button{
+    border: none;
+    padding: 1em;
+    transition: background-color 300ms;
+    background-color: #61DAFB;
+}
+.buttons button:hover,.buttons2 button:hover{
+    background-color:white;
+}
+.buttons button a,.buttons2 button a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.tutorial{
+    position: relative;
+    top: 11px;
+}
+.tutorial a:hover{
+    color:white;
+}
+.tutorial a{
+    text-decoration: none;
+    transition: color 300ms;
+    color: #61DAFB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+.information{
+    margin:5em 10em 2em 10em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid1 p,.grid2 p,.grid3 p{
+    font-size:1.1em;
+    line-height: 1.7em;
+}
+.grid1 h1,.grid2 h1,.grid3 h1{
+    color:gray;
+    font-size: 1.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.grid3 p a:hover,.grid4 p a:hover{
+    background-color: #BBEFFD;
+    border-bottom: 1px solid black;
+}
+.grid3 p a,.grid4 p a{
+    text-decoration: none;
+    color:black;
+    background-color: #EAFAFE;
+    border-bottom: 1.5px solid lightgray;
+}
+.line{
+    margin: 0em 10em 0em 10em;
+}
+.line hr{
+    background-color:lightgray;
+}
+.information2{
+    display: grid;
+    grid-template-columns: repeat(2,.8fr);
+    margin:2em 10em 2em 10em;
+    grid-column-gap: 2em;
+    grid-row-gap: 5em;
+}
+.grid4 h1,.grid6 h1,.grid8 h1,.grid10 h1{
+    font-size: 1.6em;
+    color:#282C34;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
+}
+.grid4 p,.grid6 p,.grid8 p,.grid10 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+.grid4 p span,.grid6 p span,.grid8 p span,.grid10 p span{
+    background-color: #FFFAE0;
+}
+.grid4,.grid6,.grid8,.grid10{
+    margin-top: 2em;
+}
+.buttons2{
+    padding:2em 0em 1.5em 0em;
+    display: flex;
+    justify-content: center;
+    grid-gap: 1.3em;
+    background-color: #282C34;
+}
+.outro{
+    padding: 3em 5em 3.5em 10em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #20232A;
+}
+.gd1 p,.gd2 p,.gd3 p,.gd4 p,.gd5 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:gray;
+}
+.flexbox1 a,.flexbox2 a,.flexbox3 a,.flexbox4 a{
+    color: whitesmoke;
+    font-size: .9em;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flexbox1 a:hover,.flexbox2 a:hover,.flexbox3 a:hover,.flexbox4 a:hover{
+    color:#61DAFB;
+}
+.flexbox1,.flexbox2,.flexbox3,.flexbox4{
+    display: flex;
+    flex-direction: column;
+    grid-gap: .5em;
+}
+.gd5{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.gd4{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
